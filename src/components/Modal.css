@@ -1,0 +1,33 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+body{
+    background-color:red;
+    display: flex;
+}
+.modal-box{
+    display: flex;
+    overflow:none;
+}
+.items{
+    margin: 5px;
+    border: 2px solid rgb(48, 16, 16);
+    float: left;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+ 
+button{
+    color: black;
+}
+.modal-body{
+    display: flex;
+    justify-content: center;
+    max-height: 100%;
+    max-width: 100%;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}

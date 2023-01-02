@@ -1,0 +1,78 @@
+*, *::after,*::before{
+    box-sizing: border-box;
+}
+body{
+    display:flex;
+}
+div.gallery {
+    margin: 10px;
+    border: 2px solid rgb(48, 16, 16);
+    float: left;
+    height: 100px;
+    width: 500px;
+    border-radius: 10px;
+    
+}
+  
+div.gallery:hover {
+    border: 3px solid rgb(233, 236, 236);
+    opacity: 0.5;
+   
+}
+  
+div.gallery img {   
+    height: 200px;    
+    width: 200px;
+}
+  
+div.desc {
+    padding: 15px;
+    text-align: center;
+    color: rgb(58, 36, 45);
+}
+div.modal-content {
+    background: none;
+    border: none;
+}
+    
+div.modal-header {
+    border:none;
+}
+div.modal-header button {
+        background: none;
+        border-radius: 100px 100px 0 0;
+        padding: 5px 10px;
+        opacity: 1;
+        position: relative;
+        top: 3px;
+        border: solid 2px white;
+}
+        
+div.modal-header button:hover {
+          top: 3px;
+}
+
+div.modal-header span {
+        color: white;
+}
+    
+div.modal-footer {
+      border: none;
+      margin-top: 60px;
+}
+      
+div.modal-footer btn {
+        margin: auto;
+        border: solid 2px white;
+        background: none;
+        text-transform: uppercase;
+        font-size: 0.8em;
+        letter-spacing: 0.1em;
+        font-weight: bold;
+        padding: 0.2em 0.7em;
+}
+        
+div.modal-footer:hover {
+          background: white;
+          color: black;
+}

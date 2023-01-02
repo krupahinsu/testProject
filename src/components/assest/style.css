@@ -1,0 +1,77 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+}
+/* .ImageBlock {
+    display: inline-flex;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: #fff;
+    max-width: 300px;
+    max-height: 300px;
+
+} */
+/*.ImageBlock img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 150px;
+    max-height: 150px;
+    /* border-radius: 50%; 
+    width: 100%;
+    height: auto;
+    margin: auto;
+} */
+/* .color{
+    display: ;
+} */
+div #red{
+    accent-color:red;
+    height: 20px;
+    width: 20px;
+}
+div #blue{
+    accent-color: blue;
+    height: 20px;
+    width: 20px;
+}
+div #yellow{
+    accent-color:yellow;
+    height: 20px;
+    width: 20px;
+}
+div #pink{
+    accent-color:rgb(242, 68, 155);
+    height: 20px;
+    width: 20px;
+}
+div #brown{
+    accent-color:rgb(222, 25, 25);
+    height: 20px;
+    width: 20px;
+}
+div #orange{
+    accent-color:rgb(244, 180, 61);
+    height: 20px;
+    width: 20px;
+}
+div #colorful{
+    accent-color:black;
+    height: 20px;
+    width: 20px;
+}
+.upload img{
+    height: 5rem;
+    width: 5rem;
+}
+.Logo .images{
+    display: flex;
+}
+.Logo .images .upload{
+    display: flex;
+    position: absolute;
+
+}
